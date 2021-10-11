@@ -2,7 +2,7 @@
 """
 Created on Wed Aug 25 08:48:11 2021
 
-@author: 2900888
+@author: Erlend Tøssebro
 """
 
 tall = int(input("Skriv inn tallet du ønsker fakultet av: "))
