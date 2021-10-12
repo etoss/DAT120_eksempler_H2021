@@ -9,9 +9,14 @@ STORRELSE = 60
 
 import turtle
 
-turtle.setup(500,800,1200,250)
-for i in range(4):
-    turtle.forward(STORRELSE)
-    turtle.right(90)
-turtle.done()
 
+def tegn_firkant(storrelse):
+    for i in range(4):
+        turtle.forward(storrelse)
+        turtle.right(90)    
+
+        
+if __name__ == "__main__":
+    turtle.setup(500,800,1200,250)
+    tegn_firkant(STORRELSE)
+    turtle.done()
