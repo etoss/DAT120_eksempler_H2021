@@ -11,16 +11,11 @@ import turtle
 
 
 def tegn_firkant(storrelse):
-    turtle.forward(storrelse)
-    turtle.right(90)
-    turtle.forward(storrelse)
-    turtle.right(90)
-    turtle.forward(storrelse)
-    turtle.right(90)
-    turtle.forward(storrelse)
-    turtle.right(90)
-    
+    for i in range(4):
+        turtle.forward(storrelse)
+        turtle.right(90)    
 
+        
 if __name__ == "__main__":
     turtle.setup(500,800,1200,250)
     tegn_firkant(STORRELSE)
