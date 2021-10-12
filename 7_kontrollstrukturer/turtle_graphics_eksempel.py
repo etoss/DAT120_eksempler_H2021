@@ -10,13 +10,8 @@ STORRELSE = 60
 import turtle
 
 turtle.setup(500,800,1200,250)
-turtle.forward(STORRELSE)
-turtle.right(90)
-turtle.forward(STORRELSE)
-turtle.right(90)
-turtle.forward(STORRELSE)
-turtle.right(90)
-turtle.forward(STORRELSE)
-turtle.right(90)
+for i in range(4):
+    turtle.forward(STORRELSE)
+    turtle.right(90)
 turtle.done()
 
